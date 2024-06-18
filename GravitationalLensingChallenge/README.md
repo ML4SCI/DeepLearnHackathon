@@ -24,7 +24,7 @@ The [Dataset](https://drive.google.com/file/d/1GKLETkPWy_uOwfR3UMW8YEQC4lkJa45h/
 
 #### 2. Image Super-Resolution
 
-The [Dataset](https://drive.google.com/file/d/1hu472ALwGPBcTCXSAM0VoCWmTktg9j-j/view?usp=sharing) consists of strong lensing images for cold dark matter with subhalo substructure. For each lensing image the corresponding fraction of mass in dark matter substructure is provided.
+The [Dataset](https://drive.google.com/file/d/1lUOGo2B0Rhxwj_TGZSVEdZJ79GdI7awa/view?usp=sharing) consists of high-resolution (HR) and low-resolution (LR) pairs of strong gravitational lensing images.
 
 ### Evaluation Metrics
 
@@ -34,7 +34,7 @@ The [Dataset](https://drive.google.com/file/d/1hu472ALwGPBcTCXSAM0VoCWmTktg9j-j/
 
 #### 2. Image Super-Resolution
 
-* MAE (Mean absolute error)
+* MSE (Mean Squared error), SSIM (Similarity Index), and PSNR (Signal to Noise Ratio)
 
 The model performance will be tested on the hidden test dataset based on the above metrics.
 
@@ -53,7 +53,7 @@ You can use the example notebooks provided in this repository as a template for 
 
 #### 2. Image Super-Resolution
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github//pranath-reddy/DeepLearnHackathon/blob/main/GravitationalLensingChallenge/StrongLensingChallenge-Regression.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github//pranath-reddy/DeepLearnHackathon/blob/main/GravitationalLensingChallenge/StrongLensingChallenge-SuperRes.ipynb)
 
 ### Contributors
 
