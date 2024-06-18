@@ -12,7 +12,7 @@ Since its discovery via its gravitational interactions over half a century ago, 
 
 In this challenge, we focus on exploring the potential of supervised classification models in identifying dark matter based on simulated strong lensing images with different substructure.
 
-#### Challenge 2 - Regression
+#### Challenge 2 - Image Super-Resolution
 
 In this challenge we will use regression to measure the total fraction of mass in substructure of a dark matter halo. We will do so utilizing simulated strong lensing images with subhalo substructure consistent with non-interacting cold dark matter models. 
 
@@ -20,11 +20,11 @@ In this challenge we will use regression to measure the total fraction of mass i
 
 #### 1. Multi-Class Classification
 
-The [Dataset](https://drive.google.com/file/d/1B_UZtU4W65ZViTJsLeFfvK-xXCYUhw2A/view?usp=sharing) consists of three classes, strong lensing images with no substructure, subhalo substructure, and vortex substructure. The images have been normalized using min-max normalization, but you are free to use any normalization or data augmentation methods to improve your results.
+The [Dataset](https://drive.google.com/file/d/1GKLETkPWy_uOwfR3UMW8YEQC4lkJa45h/view?usp=sharing) consists of three classes, strong lensing images with no substructure, CDM (cold dark matter) substructure, and axion substructure. The images have been normalized using min-max normalization, but you are free to use any normalization or data augmentation methods to improve your results.
 
-#### 2. Regression
+#### 2. Image Super-Resolution
 
-The [Dataset](https://drive.google.com/file/d/1hu472ALwGPBcTCXSAM0VoCWmTktg9j-j/view?usp=sharing) consists of strong lensing images for cold dark matter with subhalo substructure. For each lensing image the corresponding fraction of mass in dark matter substructure is provided.
+The [Dataset](https://drive.google.com/file/d/1lUOGo2B0Rhxwj_TGZSVEdZJ79GdI7awa/view?usp=sharing) consists of high-resolution (HR) and low-resolution (LR) pairs of strong gravitational lensing images.
 
 ### Evaluation Metrics
 
@@ -32,9 +32,9 @@ The [Dataset](https://drive.google.com/file/d/1hu472ALwGPBcTCXSAM0VoCWmTktg9j-j/
 
 * ROC curve (Receiver Operating Characteristic curve) and AUC score (Area Under the ROC Curve)  
 
-#### 2. Regression
+#### 2. Image Super-Resolution
 
-* MAE (Mean absolute error)
+* MSE (Mean Squared error), SSIM (Similarity Index), and PSNR (Signal to Noise Ratio)
 
 The model performance will be tested on the hidden test dataset based on the above metrics.
 
@@ -49,26 +49,20 @@ You can use the example notebooks provided in this repository as a template for 
 
 #### 1. Multi-Class Classification
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github//ML4SCI/ML4SCIHackathon/blob/main/GravitationalLensingChallenge/StrongLensingChallenge-Classification.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github//pranath-reddy/DeepLearnHackathon/blob/main/GravitationalLensingChallenge/StrongLensingChallenge-Classification.ipynb)
 
-#### 2. Regression
+#### 2. Image Super-Resolution
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github//ML4SCI/ML4SCIHackathon/blob/main/GravitationalLensingChallenge/StrongLensingChallenge-Regression.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github//pranath-reddy/DeepLearnHackathon/blob/main/GravitationalLensingChallenge/StrongLensingChallenge-SuperRes.ipynb)
 
 ### Contributors
 
 * Sergei Gleyzer<sup>1</sup>
-* Michael Toomey<sup>2,3</sup>
-* Pranath Reddy<sup>4</sup>
-* Yurii Halychanskyi<sup>5</sup>
+* Michael Toomey<sup>2</sup>
+* Pranath Reddy<sup>3</sup>
 
 <sup>1</sup>Department of Physics & Astronomy, University of Alabama, Tuscaloosa, AL 35401, USA
 
-<sup>2</sup>Brown Theoretical Physics Center, Providence, RI 02912, USA
+<sup>2</sup>Center for Theoretical Physics, Massachusetts Institute of Technology, Cambridge, MA 02139, USA
 
-<sup>3</sup>Department of Physics, Brown University, Providence, RI 02912, USA
-
-<sup>4</sup>Birla Institute of Technology & Science, Pilani - Hyderabad Campus, Telangana, India
-
-<sup>5</sup>Paul G. Allen School of Computer Science & Engineering, University of Washington, Seattle, WA 98195, USA
-
+<sup>3</sup>University of Florida, Gainesville, FL 32611, USA
