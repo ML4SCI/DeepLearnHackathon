@@ -1,7 +1,7 @@
 # Exoplanet Search Challenge:
 ## Detecting Exoplanets in Protoplanetary Disks
 
-![HL Tau](https://github.com/ML4SCIHackathon/ML4SCI/blob/main/ExoplanetSearchChallenge/hl_tau_ALMA.jpg) (Credit: ALMA (ESO/NAOJ/NRAO))
+![HL Tau](https://github.com/ML4SCI/DeepLearnHackathon/blob/main/ExoplanetSearchChallenge/hl_tau_ALMA.jpeg) (Credit: ALMA (ESO/NAOJ/NRAO))
 
 ### Description
 Protoplanetary disks are the sites of planet formation. They provide laboratories against which theories of planet formation can be tested. State-of-the-art telescopes have the power to observe these systems in unprecedented detail. These observations can contain a wealth of information that can be used to advance theories. However, extracting this information can be difficult since the observations are noisy, and there are few well-understood disks. Recently, the interplay of advanced simulations and machine learning have been successful in analyzing these disks and identifying exoplanets [[1](https://ui.adsabs.harvard.edu/abs/2021ApJ...920....3A/abstract)] [[2](https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.4473Z/abstract)] [[3](https://ui.adsabs.harvard.edu/abs/2022ApJ...941..192T/abstract)] [[4](https://ui.adsabs.harvard.edu/abs/2023ApJ...947...60T/abstract)]. This promising avenue of research is the basis for this Hackathon challenge.
