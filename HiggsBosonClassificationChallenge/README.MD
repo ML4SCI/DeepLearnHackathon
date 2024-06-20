@@ -1,6 +1,6 @@
 A reference notebook for this challenge can be found on the Colab link below:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/ML4SCIHackathon/blob/main/HiggsBosonClassificationChallenge/higgs_classification.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/DeepLearnHackathon/blob/main/HiggsBosonClassificationChallenge/higgs_classification.ipynb)
 
 
 
@@ -29,3 +29,6 @@ Baldi, P., Sadowski P., and Whiteson D. “Searching for Exotic Particles in Hig
 Ali Hariri (American University of Beirut)
 
 Sergei V. Gleyzer (University of Alabama)
+
+Eric Reinhardt (University of Alabama)
+
