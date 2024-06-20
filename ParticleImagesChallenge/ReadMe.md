@@ -9,10 +9,10 @@ Here we present a challenge where one of the detectors (the Electromagnetic Calo
 Each pixel in the image corresponds to a detector cell, while the intensity of the pixel corresponds to how much energy is measured in that cell. Timing of the energy deposits are also available, though this may or may not be relevant. The dataset contains 32x32 Images of the energy hits and their timing (channel 1: hit energy and channel 2: its timing) in each calorimeter cell (one cell = one pixel) for the two classes of particles: Electrons and Photons. The dataset contains around four hundred thousand images for electrons and photons. Please note that your final model will be evaluated on an unseen test dataset. 
 ## Challenge 1 - CNN
 Please use a Machine Learning model of your choice to achieve the highest possible classification performance on the provided dataset. 
-### Example Notebook of CNN based approach:      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/ML4SCIHackathon/blob/main/ParticleImagesChallenge/ParticleImages.ipynb)
+### Example Notebook of CNN based approach (Using Pytorch):      [![Open In Colab](https://colab.research.google.com/github/ML4SCI/DeepLearnHackathon/blob/main/ParticleImagesChallenge/ParticleImages.ipynb)
 ## Challenge 2 (Advanced)- ViT
 The field of Computer Vision has for years been dominated by Convolutional Neural Networks (CNNs) which use filters and create feature used by a multi-layer perceptron to perform the desired classification. But recently this field has been incredibly revolutionized by the architecture of Vision Transformers (ViT), which through the mechanism of self-attention has proven to obtain excellent results on many tasks. Please implement Vision Transformer or any of its variation to achieve highest possible classification performance on the dataset. 
-### Example Notebook of ViT based approach:     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/ML4SCIHackathon/blob/main/ParticleImagesChallenge/ViT.ipynb)
+### Example Notebook of ViT based approach (Using TensorFlow):     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/DeepLearnHackathon/blob/main/ParticleImagesChallenge/ViT.ipynb)
 
 ### Note: 
 Both the challenges will be considered as separate challenges. You may participate in either or both. Please provide a Jupyter Notebook that shows your solution.
@@ -32,3 +32,4 @@ The model performance will be tested on a hidden test dataset based on the above
 * Michael Andrews (Physics Department, Carnegie Mellon University)  
 * Shravan Chaudhari (Birla Institute of Technology & Science - Pilani, Goa Campus, India)   
 * Purva Chaudhari (Vishwakarma Institute of Technology, India)
+* Eric Reinhardt (Department of Physics & Astronomy, University of Alabama)
