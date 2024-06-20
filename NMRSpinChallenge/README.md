@@ -1,7 +1,7 @@
 
 # Hackathon - NMR Challenge
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/ML4SCIHackathon/blob/main/NMRSpinChallenge/Hackathon_NMR_Challenge_Nov2021.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/DeepLearnHackathon/blob/main/NMRSpinChallenge/Hackathon_NMR_Challenge_July2024.ipynb)
 
 ### Problem Statement
 
@@ -17,9 +17,31 @@ Before getting to any code, we first review the structure of this machine learni
 ### Goal:
 Predict three numbers from a large input vector of real numbers.
 
-### Example Solution:  Multilayer Neural Network (see code after this introduction)
+### Example Solution:  Multilayer Neural Network and Decision Trees (see code after this introduction)
 
 To get the complex-valued time-series M(t) into a neural network, we can simply "stack" the real and complex parts together to make a real-valued input vector.
+
+## Deliverables:
+
+We ask you to submit two models: one for guass and one for rkky. We ask you to make your predictions on the test sets. You don't have the true labels for the test sets meaning you are limited only to what you know about train sets (and validation subsets) to build the best models possible. 
+
+Use your models to predict the three spin-interaction variables from the  echos, and submit your results for **each model** (two models total) in a tab delimited .txt  file of dimensions 6000 x 3 matching the "<model_type>_mat_info_model.txt" format.
+
+That is, the columns should be:
+| $\\alpha$ | $\\xi$ | $d$ |
+and there should be 6000 rows.
+
+Name this file "<model_type>_mat_info_eval.txt". 
+The quality of the model will be judged by the minimization of normalized <br> mean-square error: 
+$\\textrm{Err} = \\sum_{v=1}^{3} \\sum_{i=i}^{6000} \\left( \\tilde{v}^i_\\textrm{model} - \\tilde{v}^i_\\textrm{true} \\right)^2 $\n",
+
+where $v^i$ is one of the three spin-interaction variables for echo number $i$, <br>, and the tilde represents normalization of each variable (using the StandardScaler() object used above). Your submission should include: 
+- Your ipython notebook (`.ipynb`),
+- A PDF copy of your notebook together with a description of what you have done
+- Your model's evaluation of the Gaussian data (\"gauss_mat_info_eval.txt\")
+- Your model's evaluation of the RKKY data (\"RKKY_mat_info_eval.txt\").\n",
+
+**NOTE: If your final model prediction files aren't named \"gauss_mat_info_eval.txt\" and \"RKKY_mat_info_eval.txt\" your results might not be correctly evaluated by the automatic evaluation software.**
 
 ## Introduction to NMR and spin echos
 
@@ -105,3 +127,4 @@ For more detail on the coupled spil model and details of the simulations, see th
 - V. F. Mitrović (Brown University)
 - D. E. Feldman (Brown Theoretical Physics Center)
 - C. Ramanathan (Dartmouth College)
+- Eric Reinhardt (The University of Alabama)
