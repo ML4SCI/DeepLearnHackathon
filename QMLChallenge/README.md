@@ -6,12 +6,13 @@ The idea is to train a model on brackground data only. Afterwards, we want to us
 
 ## Dataset
 
-For the dataset we provide simulated detector images of quark and gluon jets. In order to reduce the computational burden, we reduced the images to the size `30x30`. The dataset can be obtained [here]().
+For the dataset we provide simulated detector images of quark and gluon jets. In order to reduce the computational burden, we reduced the images to the size `30x30`. The dataset can be obtained [here](https://drive.google.com/file/d/1dJiFRqMWhBzT6lS7neGrIBYEiYX8oveT/view?usp=sharing).
 
 The images show jets which originate from a Quark or from Gluons. The Quark initiated jets are labeld as $1$, while the Gluon initiated jets are labeled as $0$. We want to train on the Quark initiated jets and then tag the gluon jets.
 
 Some example samples are shown below:
 ![data](./dataset.png)
+
 The top row shows the quark initiated jets, while the bottom row shows gluon initiated jets. 
 
 ## Model
@@ -33,6 +34,3 @@ We provide an example notebook which shows how to load the dataset and evaluate 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/ML4SCIHackathon/blob/main/QMLChallenge/AnomalyDetection.ipynb)
 
 In the example we train a __classical__ autoencoder. 
-
-
-
