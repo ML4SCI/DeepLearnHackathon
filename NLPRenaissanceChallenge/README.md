@@ -23,7 +23,7 @@ Discuss which evaluation metrics you are using to evaluate your model performanc
 - Example usage notebook demonstrating the model's performance on sample data.
 
 ## Example Notebook
-[Example Notebook on Google Colab](https://colab.research.google.com/drive/1WqGVqVBns5HqVfXflEP_KcPVr41NuVVn?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WqGVqVBns5HqVfXflEP_KcPVr41NuVVn?usp=sharing)
 
 ## Contributors
 - [Contributor 1](https://github.com/contributor1)
