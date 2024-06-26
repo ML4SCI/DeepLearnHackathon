@@ -26,11 +26,13 @@ Discuss which evaluation metrics you are using to evaluate your model performanc
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WqGVqVBns5HqVfXflEP_KcPVr41NuVVn?usp=sharing)
 
 ## Contributors
-- [Contributor 1](https://github.com/contributor1)
-- [Contributor 2](https://github.com/contributor2)
-- [Contributor 3](https://github.com/contributor3)
-- [Contributor 4](https://github.com/contributor4)
-- [Contributor 5](https://github.com/contributor5)
-- [Contributor 6](https://github.com/contributor6)
 
-<sup>1</sup>HumanAI Foundation
+
+- Shashank Shekhar Singh (Indian Institue of Technology, BHU)
+- Utsav Rai (Imperial College London)
+- Yukinori Yamamoto (Waseda University)
+- Arsh Khan (VJTI, Mumbai)
+- Xabier Granja (University of Alabama)
+- Sergei Gleyzer (University of Alabama)
+- Harrison Meadows (University of Tennessee)
+ 
