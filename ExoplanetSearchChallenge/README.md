@@ -24,4 +24,4 @@ You can use the example notebooks provided in this repository as a template for 
 
 ### Example Notebooks
 
-Made locally, but waiting for data upload to complete for Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qriyMubSylQFI3thT2nYa5getTDD78ea?usp=sharing)
