@@ -1,5 +1,9 @@
 # RenAIssance: OCR for Seventeenth Century Spanish Texts
-![coverImage](./cover.webp)
+<!-- ![coverImage](./cover.webp) -->
+<p align="center">
+<img src="./cover.webp" width="400">
+</p>
+
 ## Description
 RenAIssance encompasses the use of optical character recognition (OCR) necessary to digitize text sources that have not yet been targeted by existing tools. Its purpose is to find ways to apply machine learning techniques to make OCR possible on a variety of materials that have never been digitized before. This project focuses on applying AI to recognize text in Spanish printed sources from the seventeenth century, an area underserved by current OCR tools.
 
