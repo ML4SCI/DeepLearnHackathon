@@ -1,7 +1,7 @@
 # RenAIssance: OCR for Seventeenth Century Spanish Texts
 <!-- ![coverImage](./cover.webp) -->
 <p align="center">
-<img src="./cover.webp" width="400">
+<img src="./images/cover.webp" width="400">
 </p>
 
 ## Description
