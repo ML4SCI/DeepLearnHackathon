@@ -23,6 +23,7 @@ Discuss which evaluation metrics you are using to evaluate your model performanc
 
 ## Deliverables
 - A trained OCR model capable of recognizing text in the provided datasets.
+- Predictions of the last 6 pages of the provided book in a text file.
 - A brief report discussing the chosen approach, model architecture, training process, and evaluation results.
 - Example usage notebook demonstrating the model's performance on sample data.
 
