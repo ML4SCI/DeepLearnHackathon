@@ -25,5 +25,6 @@ The data used was generated for [Terry et al. (2022)](https://ui.adsabs.harvard.
 You can use the example notebooks provided in this repository as a template for your work.
 
 ### Example Notebooks
+An example notebook that will (poorly) solve the challenge using a small subset of data is in this repository and in Google Colab.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qriyMubSylQFI3thT2nYa5getTDD78ea?usp=sharing)
