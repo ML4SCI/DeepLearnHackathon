@@ -1,6 +1,6 @@
 # Strong Lensing Challenge
 
-![Lensing illustration](https://github.com/ML4SCIHackathon/ML4SCI/blob/main/GravitationalLensingChallenge/gitimage.jpg)
+![Lensing illustration](https://github.com/ML4SCI/DeepLearnHackathon/blob/main/GravitationalLensingChallenge/gitimage.jpg)
 
 > Illustration by Sandbox Studio, Chicago with Ana Kova
 
