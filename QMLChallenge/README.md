@@ -38,7 +38,7 @@ We evaluate the challenge on the AUC of a black box test set. To be considered f
 
 We provide an example notebook which shows how to load the dataset and evaluate the performance of an anomaly detection model:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/ML4SCIHackathon/blob/main/QMLChallenge/AnomalyDetection.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/DeepLearnHackathon/blob/qml/QMLChallenge/QMLChallenge.ipynb)
 
 In the example, we train a __classical__ autoencoder.
 
