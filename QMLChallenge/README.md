@@ -31,7 +31,7 @@ You are free to choose any model you like. However, in the spirit of quantum mac
 We evaluate the challenge on the AUC of a black box test set. To be considered for the challenge, a solution needs to satisfy the following criteria:
 
 1. The model is trained only on Quark jets (label 1)
-2. The model has a maximum of xxx parameters
+2. The quantum circuit should not use more than 20 qubits.
 3. The solution is submitted as an executable notebook where which can be run without any additional third party libraries.
 
 ## Example notebook
