@@ -171,7 +171,36 @@ def process_textfiles(textfile, sorted_BoundBox_folder, output_folder):
             output.write(content + '\n')
     last_textfile_number = last_textfile_number + occurrences
 
-def extract_bounding_boxes(image_path, bounding_boxes_file, text_line_data, output_folder):
+def extract_bounding_boxes(image_path, bounding_boxes_file, output_folder, word):
+    # Read the main image
+    main_image = cv2.imread(image_path)
+    # Create the output folder if it doesn't exist
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
+    # Read bounding box coordinates from the text file
+    with open(bounding_boxes_file, 'r') as f:
+        bounding_boxes_data = f.read().split(';')
+    bounding_boxes_data = bounding_boxes_data[1:]
+
+    for indx in range(len(bounding_boxes_data)-1):
+        bounding_box_coords = bounding_boxes_data[indx].strip().split('\n')
+        for cnt in range(len(bounding_box_coords)):
+            coordinates_list = [int(coord) for coord in bounding_box_coords[cnt].split(',')]
+            x_min, y_min, x_max, y_min, x_max, y_max, x_min, y_max = coordinates_list
+
+            # Extract the bounding box from the main image
+            bounding_box = main_image[y_min:y_max, x_min:x_max]
+
+            # Save the bounding box as a separate image
+            output_path = os.path.join(output_folder, f'{word}.png')
+            cv2.imwrite(output_path, bounding_box)
+
+            word += 1
+
+    return word
+
+def extract_bounding_boxes_train(image_path, bounding_boxes_file, text_file, output_folder):
     # Read the main image
     main_image = cv2.imread(image_path)
 
@@ -184,9 +213,12 @@ def extract_bounding_boxes(image_path, bounding_boxes_file, text_line_data, outp
         bounding_boxes_data = f.read().split(';')
     bounding_boxes_data = bounding_boxes_data[1:]
     #first value is for page number so skip it
+    # Read text data from the text file
+    with open(text_file, 'r') as f:
+        text_data = f.read().split('\n')
 
-    for indx in range(len(text_line_data)):
-        words = text_line_data[indx].split(' ')
+    for indx in range(len(text_data)):
+        words = text_data[indx].split(' ')
         bounding_box_coords = bounding_boxes_data[indx].strip().split('\n')
         for cnt in range(min(len(words),len(bounding_box_coords))):
             coordinates_list = [int(coord) for coord in bounding_box_coords[cnt].split(',')]
@@ -215,10 +247,7 @@ def apply_extraction_to_folder_for_train(image_folder, bounding_box_folder, text
             if os.path.exists(bounding_box_path):
                 image_path = os.path.join(image_folder, image_filename)
                 # Apply bounding box extraction to each image
-                # Read text data from the text file
-                with open(actual_text_path, 'r') as f:
-                    text_data = f.read().split('\n')
-                extract_bounding_boxes(image_path, bounding_box_path, text_data, output_folder)
+                extract_bounding_boxes_train(image_path, bounding_box_path, actual_text_path, output_folder)
             else:
                 print(f'Bounding box file for {image_filename} does not exist.')
 
@@ -231,20 +260,12 @@ def apply_extraction_to_folder_for_test(image_folder, bounding_box_folder, outpu
             bounding_box_filename = "res_" + image_base_name + '_sorted.txt'
             bounding_box_path = os.path.join(bounding_box_folder, bounding_box_filename)
             if os.path.exists(bounding_box_path):
-                with (open(bounding_box_path, 'r')) as f:
-                    lines = len(f.read().split('\n'))
-                text_line_data = []
-                for _ in range(lines):
-                    line = ""
-                    for i in range(word, word+100):
-                        line += str(i) + ' '
-                    word += 100
-                    text_line_data.append(line)
                 image_path = os.path.join(image_folder, image_filename)
-                extract_bounding_boxes(image_path, bounding_box_path, text_line_data, output_folder)
+                word = extract_bounding_boxes(image_path, bounding_box_path, output_folder, word)
             else:
                 print(f'Bounding box file for {image_filename} does not exist.')
 
+                
 def create_csv_from_folder(folder_path, csv_file_path):
     # Get a list of all files in the folder
     files = [f for f in os.listdir(folder_path) if os.path.isfile(os.path.join(folder_path, f))]
