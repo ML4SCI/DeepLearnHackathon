@@ -25,7 +25,7 @@ Please submit the following:
 
 **References:**
 
-Baldi, P., Sadowski P., and Whiteson D. “Searching for Exotic Particles in High-energy Physics with Deep Learning.” Nature Communications 5 (July 2, 2014).
+Baldi, P., Sadowski P., and Whiteson D. “[Searching for Exotic Particles in High-energy Physics with Deep Learning.](https://www.nature.com/articles/ncomms5308)” Nature Communications 5 (July 2, 2014).
 
 **Contributors:**
 
