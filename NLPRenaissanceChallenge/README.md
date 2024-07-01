@@ -10,10 +10,13 @@ RenAIssance encompasses the use of optical character recognition (OCR) necessary
 Transliteration of text from centuries-old works represents a research area that is underserved by current tools, such as Adobe Acrobat’s OCR. While these resources can perform text recognition from clearly printed modern sources, they are incapable of extracting textual data from early forms of print, much less manuscripts.
 
 ## Task
-Build a model based on convolutional-recurrent architectures for optically recognizing the text in the given image dataset. Pick the most appropriate approach and discuss your strategy.
+Build a model for optically recognizing the text in the given image dataset. Pick the most appropriate approach and discuss your strategy.
 
 ## Dataset
-- A collection of various printed texts from the seventeenth century.
+- The dataset consists of a scanned Spanish textbook with 31 pages.
+- Transcriptions of the first 25 pages (ground truth) are available in a DOCX file.
+- The first 25 pages will serve as your training and evaluation data.
+- You need to submit the predicted text for the remaining 6 pages as the output of your model for testing purposes.
 
 ## Evaluation Metrics
 Discuss which evaluation metrics you are using to evaluate your model performance. Consider the following metrics:
