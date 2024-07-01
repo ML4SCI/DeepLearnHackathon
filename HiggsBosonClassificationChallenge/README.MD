@@ -1,3 +1,7 @@
+# Higgs Boson Classification Challenge
+
+![decay image](decay.png)
+
 A reference notebook for this challenge can be found on the Colab link below:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/DeepLearnHackathon/blob/main/HiggsBosonClassificationChallenge/higgs_classification.ipynb)
@@ -31,3 +35,4 @@ Sergei V. Gleyzer (University of Alabama)
 
 Eric Reinhardt (University of Alabama)
 
+Marco Knipfer (Friedrich-Alexander-Universität Erlangen-Nürnberg)
