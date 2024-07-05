@@ -44,6 +44,8 @@ In the example above, we train a __classical__ autoencoder. An example of a quan
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/DeepLearnHackathon/blob/qml/QMLChallenge/QMLChallenge_QAE.ipynb).
 
+To learn more about QML, checkout the official [demos](https://pennylane.ai/qml/demonstrations/) by PennLane.
+
 image courtesy: [tensorflow](https://blog.tensorflow.org/2020/03/announcing-tensorflow-quantum-open.html), [prefetch](https://prefetch.eu/know/concept/bloch-sphere/).
 
 ## Tips for working with Google Colaboratory
@@ -53,6 +55,8 @@ To use the dataset with Google Drive in Google Colab, follow the steps below:
 - Click the "All locations" tab and add it to "My Drive".
 
 The code to mount Google Drive is present in `QMLChallenge.ipynb`
+
+Additional Python packages can be installed using the `!` operator as shown in the example notebooks.
 
 ## Contributors
 
