@@ -44,7 +44,7 @@ In the example above, we train a __classical__ autoencoder. An example of a quan
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/DeepLearnHackathon/blob/qml/QMLChallenge/QMLChallenge_QAE.ipynb).
 
-To learn more about QML, checkout the official [demos](https://pennylane.ai/qml/demonstrations/) by PennLane.
+To learn more about QML, checkout the official [demos](https://pennylane.ai/qml/demonstrations/) by PennyLane.
 
 image courtesy: [tensorflow](https://blog.tensorflow.org/2020/03/announcing-tensorflow-quantum-open.html), [prefetch](https://prefetch.eu/know/concept/bloch-sphere/).
 
