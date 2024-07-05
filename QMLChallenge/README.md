@@ -46,13 +46,13 @@ In the example above, we train a __classical__ autoencoder. An example of a quan
 
 image courtesy: [tensorflow](https://blog.tensorflow.org/2020/03/announcing-tensorflow-quantum-open.html), [prefetch](https://prefetch.eu/know/concept/bloch-sphere/).
 
-# Tips for working with Google Colaboratory
+## Tips for working with Google Colaboratory
 
-To use the dataset with google drive in google colab, follow the steps below:
-- After opening the dataset link, click on "Add shortcut to drive".
-- Click the tab "All locations" add it to "My Drive".
+To use the dataset with Google Drive in Google Colab, follow the steps below:
+- After opening the dataset link, click "Add shortcut to drive".
+- Click the "All locations" tab and add it to "My Drive".
 
-The code to mount google drive is present in `QMLChallenge.ipynb`
+The code to mount Google Drive is present in `QMLChallenge.ipynb`
 
 ## Contributors
 
