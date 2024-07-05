@@ -5,7 +5,7 @@
 </p>
 
 ## Description
-RenAIssance encompasses the use of optical character recognition (OCR) necessary to digitize text sources that have not yet been targeted by existing tools. Its purpose is to find ways to apply machine learning techniques to make OCR possible on a variety of materials that have never been digitized before. This project focuses on applying AI to recognize text in Spanish printed sources from the seventeenth century, an area underserved by current OCR tools.
+RenAIssance project encompasses the use of optical character recognition (OCR) necessary to digitize text sources that have not yet been targeted by existing tools. Its purpose is to find ways to apply machine learning techniques to make OCR possible on a variety of materials that have never been digitized before. This competition focuses on applying AI to recognize text in Spanish printed sources from the seventeenth century, an area underserved by current OCR tools.
 
 Transliteration of text from centuries-old works represents a research area that is underserved by current tools, such as Adobe Acrobat’s OCR. While these resources can perform text recognition from clearly printed modern sources, they are incapable of extracting textual data from early forms of print, much less manuscripts.
 
