@@ -3,8 +3,6 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ML4SCI/DeepLearnHackathon/blob/main/NMRSpinChallenge/Hackathon_NMR_Challenge_July2024.ipynb)
 
-# Hackathon - NMR Challenge
-
 
 ### Problem Statement
 
