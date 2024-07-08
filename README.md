@@ -22,4 +22,4 @@ There are seven main challenges:
 
 Please find more details and example Jupyter notebooks inside each challenge folder. 
 
-Solutions are due on Monday, July 29 at 7pm 18:00 CET. Winners will receive certificates and prizes. For any questions about the ML Hackathon please contact Prof. Sergei Gleyzer sgleyzer@ua.edu 
+Solutions are due on Monday, July 29 at 18:00 CET. Winners will receive certificates and prizes. For any questions about the ML Hackathon please contact Prof. Sergei Gleyzer sgleyzer@ua.edu 
