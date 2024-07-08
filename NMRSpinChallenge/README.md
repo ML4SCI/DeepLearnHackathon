@@ -38,10 +38,10 @@ The quality of the model will be judged by the minimization of normalized <br> m
 $\\textrm{Err} = \\sum_{v=1}^{3} \\sum_{i=i}^{6000} \\left( \\tilde{v}^i_\\textrm{model} - \\tilde{v}^i_\\textrm{true} \\right)^2 $\n",
 
 where $v^i$ is one of the three spin-interaction variables for echo number $i$, <br>, and the tilde represents normalization of each variable (using the StandardScaler() object used above). Your submission should include: 
-- Your ipython notebook (`.ipynb`),
+- Your ipython notebook (`.ipynb`)
 - A PDF copy of your notebook together with a description of what you have done
 - Your model's evaluation of the Gaussian data (\"gauss_mat_info_eval.txt\")
-- Your model's evaluation of the RKKY data (\"RKKY_mat_info_eval.txt\").\n",
+- Your model's evaluation of the RKKY data (\"RKKY_mat_info_eval.txt\")
 
 **NOTE: If your final model prediction files aren't named \"gauss_mat_info_eval.txt\" and \"RKKY_mat_info_eval.txt\" your results might not be correctly evaluated by the automatic evaluation software.**
 
