@@ -27,7 +27,7 @@ The top row shows the quark-initiated jets, while the bottom row shows gluon-ini
 You are free to choose any model you like. However, in the spirit of quantum machine learning, we put a limit on the maximum number of parameters you are allowed to use.
 
 ## Challenge and Evaluation
-
+Fill out the pre- and post-hackathon surveys
 We evaluate the challenge on the **AUC** of a black box test set. To be considered for the challenge, a solution needs to satisfy the following criteria:
 
 1. The model is trained only on Quark jets (label 1)
