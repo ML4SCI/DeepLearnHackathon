@@ -27,6 +27,7 @@ Discuss which evaluation metrics you are using to evaluate your model performanc
 - Precision, Recall, and F1 Score for recognized text
 
 ## Deliverables
+- Fill out the pre- and post-hackathon surveys
 - A trained OCR model capable of recognizing text in the provided datasets.
 - Predictions of the last 6 pages of the provided book in a text file.
 - A brief report discussing the chosen approach, model architecture, training process, and evaluation results.
