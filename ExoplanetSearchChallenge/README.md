@@ -22,6 +22,7 @@ The data used was generated for [Terry et al. (2022)](https://ui.adsabs.harvard.
 * You are required to submit a Google Colab Jupyter Notebook clearly showing your implementation along with the above-mentioned evaluation metrics for test data. This test data is part of the provided data, but it should not be used as training or validation data. It is not the same data that we will test on.
 * A PDF of your final Jupyter notebook
 * You must also submit the final trained model, including the model architecture and the trained weights (For example: HDF5 file, .pb file, .pt file, etc.) that can be easily implemented on our withheld data.
+* Fill out the pre- and post-hackathon surveys
 
 You can use the example notebooks provided in this repository as a template for your work.
 
