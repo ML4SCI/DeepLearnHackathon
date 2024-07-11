@@ -24,7 +24,7 @@ Predict three numbers from a large input vector of real numbers.
 To get the complex-valued time-series M(t) into a neural network, we can simply "stack" the real and complex parts together to make a real-valued input vector.
 
 ## Deliverables:
-
+* Fill out the pre- and post-hackathon surveys
 We ask you to submit two models: one for "gauss" and one for "RKKY". We ask you to make your predictions on the test sets. You don't have the true labels for the test sets meaning you are limited only to what you know about train sets (and validation subsets) to build the best models possible. 
 
 Use your models to predict the three spin-interaction variables from the  echos, and submit your results for **each model** (two models total) in a tab delimited .txt  file of dimensions 6000 x 3 matching the "<model_type>_mat_info_model.txt" format.
