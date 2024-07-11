@@ -23,6 +23,7 @@ Both the challenges will be considered as separate challenges. You may participa
 
 The model performance will be tested on a hidden test dataset based on the above metrics.
 ## Deliverables  
+* Fill out the pre- and post-hackathon surveys
 * Pdf and .ipynb file showing your solution along with the final model accuracy (Training and Validation), ROC curve and AUC score. More details regarding the format of the notebook can be found in the sample Google Colab notebook provided for this challenge.  
 * The final trained model including the model architecture and the trained weights ( For example: HDF5 file, .pb file, .pt file, etc. ). You are free to choose Machine Learning Framework of your choice.
 
