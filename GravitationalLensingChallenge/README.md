@@ -44,8 +44,8 @@ The [Dataset](https://drive.google.com/file/d/1lUOGo2B0Rhxwj_TGZSVEdZJ79GdI7awa/
 Model performance will be assessed on a hidden test dataset using the above metrics. More details about these metrics and the code to calculate them are shared in the example notebooks below.
 
 ## Deliverables
-
-* You are required to submit a Google Colab Jupyter Notebook clearly showing your implementation along with the above-mentioned evaluation metrics for the validation data.
+* Fill out the pre- and post-hackathon surveys
+* You are required to submit a Google Colab Jupyter Notebook (both pdf and .ipynb) clearly showing your implementation along with the above-mentioned evaluation metrics for the validation data.
 * You must also submit the final trained model, including the model architecture and the trained weights ( For example: HDF5 file, .pb file, .pt file, etc. )
 
 You can use the example notebooks provided in this repository as templates for your work. While the notebooks use PyTorch, you are free to use any other machine learning or deep learning frameworks such as TensorFlow, Keras or Scikit-Learn.
