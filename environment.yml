@@ -1,4 +1,4 @@
-name: base
+name: ml4sci_env
 channels:
   - defaults
 dependencies:
