@@ -25,3 +25,15 @@ There are seven main challenges:
 Please find more details and example Jupyter notebooks inside each challenge folder. 
 
 Solutions are due on Monday, July 31st at 18:00 CET. Winners will receive certificates and prizes.
+
+🔧 Setup Instructions
+1️⃣ Clone the repository
+git clone https://github.com/ML4SCI/DeepLearnHackathon.git
+cd DeepLearnHackathon
+2️⃣ Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate   # On Windows use: venv\Scripts\activate
+3️⃣ Install dependencies
+pip install -r requirements.txt
+4️⃣ Launch Jupyter Notebook
+jupyter notebook
