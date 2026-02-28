@@ -37,3 +37,19 @@ source venv/bin/activate   # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 4️⃣ Launch Jupyter Notebook
 jupyter notebook
+
+### Using Conda Environment (Recommended)
+
+If you have conda installed, use the environment file:
+
+1. Create environment from file:
+```bash
+conda env create -f environment.yml
+```
+2. Activate it:
+```bash
+conda activate ml4sci_env
+```
+3. Launch Jupyter:
+jupyter notebook
+
